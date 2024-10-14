@@ -1,0 +1,101 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.upload-box {
+  border: 2px dashed #007BFF;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  margin-bottom: 30px;
+}
+
+.custom-file-upload {
+  font-size: 18px;
+  color: #007BFF;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.custom-file-upload input {
+  display: none;
+}
+
+.convert-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.convert-btn:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.download-link {
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+.info-section {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+  text-align: left;
+}
+
+.info-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info-section ul li {
+  margin-bottom: 10px;
+}
+
+.info-section ul li:before {
+  content: '✔';
+  color: #4CAF50;
+  margin-right: 10px;
+}
